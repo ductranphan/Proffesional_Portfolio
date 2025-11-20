@@ -307,7 +307,4 @@ function SkillsCard({ data }) {
 }
 
 export default App
-export {Experience}
-export {Projects}
-
 
