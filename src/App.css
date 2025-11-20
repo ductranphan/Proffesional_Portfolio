@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* no vertical centering */
+  align-items: center;         /* horizontal centering */
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;   
+  gap: 20px;            
+  padding: 20px;
+}
+
+.App__texts {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 18px; 
+}
+
+
+.App__image, .profile{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;                
+  border: 3px solid #8a27e6; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+
+.App__texts {
+  text-align: left;;
+}
