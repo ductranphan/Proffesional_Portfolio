@@ -138,7 +138,7 @@ function Projects() {
       tags: ["Python", "Pandas", "REST API", "Streamlit", "JSON"],
       date: "Sep 2025 — Oct 2025",
       image:  spotifybackground ,
-      codeUrl: "https://github.com/ductranphan/Proffesional_Portfolio",
+      codeUrl: "https://github.com/ductranphan/SpotiMe",
       details: [
         "- Personalized Spotify analytics dashboard that visualizes your listening habits, top tracks, and favorite artists over various time frames",
         "- It connects to the Spotify API and features a local JSON rating system to help you revisit and rate past albums and songs"
