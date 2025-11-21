@@ -73,7 +73,7 @@ function App() {
               Duc Tran Phan 
             </h1>
             <h2 className = "text-xl md:text-2xl text-gray-400 mt-2">
-              Aspiring Software Engineer | Data Scientist
+              Aspiring Software Developer | Data Analyst
             </h2>
 
             <p className = "text-md text-white mt-4 max-w-xl">
