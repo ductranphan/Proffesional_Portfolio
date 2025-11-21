@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import profile from './assets/headshot.jpg'
+import profile from './assets/face.jpg'
 import linkedlnLogo from './assets/linkedln-logo.png'
 import githubLogo from './assets/github-logo.png'
 import instaLogo from './assets/insta-logo.png'
