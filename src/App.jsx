@@ -138,7 +138,7 @@ function Projects() {
       tags: ["Python", "Pandas", "REST API", "Streamlit", "JSON"],
       date: "Sep 2025 — Oct 2025",
       image:  spotifybackground ,
-      codeUrl: "https://spotime.streamlit.app/",
+      codeUrl: "https://github.com/ductranphan/Proffesional_Portfolio",
       details: [
         "- Personalized Spotify analytics dashboard that visualizes your listening habits, top tracks, and favorite artists over various time frames",
         "- It connects to the Spotify API and features a local JSON rating system to help you revisit and rate past albums and songs"
@@ -272,7 +272,7 @@ function Skills(){
           Made using <span className='text-purple-500'>React.js</span> and <span className='text-purple-500'>Tailwind CSS</span>, depolyed on <span className = 'text-purple-500' >Vercel</span>
       </span>
 
-      <a href="https://github.com/ductranphan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center p-1 rounded transition duration-150 hover:scale-105">
+      <a href="https://github.com/ductranphan/Proffesional_Portfolio" target="_blank" rel="noopener noreferrer" className="inline-flex items-center p-1 rounded transition duration-150 hover:scale-105">
         <img className="w-8 h-8 bg-transparent object-contain transition duration-150 dark:md:hover:bg-fuchsia-600" alt="GitHub" src={githubLogo} />
       </a>
   </div>
