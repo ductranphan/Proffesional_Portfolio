@@ -141,7 +141,7 @@ function Projects() {
       codeUrl: "https://spotime.streamlit.app/",
       details: [
         "- Personalized Spotify analytics dashboard that visualizes your listening habits, top tracks, and favorite artists over various time frames",
-        "- It connects to the Spotify API and features a local JSON rating system to help you revisit and rate past albums and songs"
+        "- Connects to the Spotify API and features a local JSON rating system to help you revisit and rate past albums and songs"
       ]
     }
   ]
