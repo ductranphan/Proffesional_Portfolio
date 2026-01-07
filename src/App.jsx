@@ -77,7 +77,7 @@ function App() {
             </h2>
 
             <p className="text-md text-white mt-4 max-w-xl">
-              <span className="text-purple-500">3.78/4.00 GPA</span> - Dean's Honour List
+              <span className="text-purple-500">3.67/4.00 GPA</span> - Dean's Honour List
             </p>
 
             <p className="text-md text-gray-300 mt-4 max-w-xl">
