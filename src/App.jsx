@@ -76,10 +76,6 @@ function App() {
               Aspiring Software Engineer | Data Scientist
             </h2>
 
-            <p className="text-md text-white mt-4 max-w-xl">
-              <span className="text-purple-500">3.67/4.00 GPA</span> - Dean's Honour List
-            </p>
-
             <p className="text-md text-gray-300 mt-4 max-w-xl">
               Second year Computer Science, specialized in AI/Machine Learning stream, student at <span className="text-purple-500">Carleton University</span>. Passionate about leveraging technology to solve real-world problems and eager to contribute to innovative projects in software engineering and data science.
               In my free time, I enjoy working out, training martial arts, reading books, and exploring new technologies.
@@ -269,7 +265,7 @@ function Skills() {
 
       <div className="flex justify-center items-center">
         <span className="text-s px-3 py-1 rounded-full text-gray-300">
-          Made using <span className='text-purple-500'>React.js</span> and <span className='text-purple-500'>Tailwind CSS</span>, depolyed on <span className='text-purple-500' >Vercel</span>
+          Made using <span className='text-purple-500'>React.js</span> and <span className='text-purple-500'>Tailwind CSS</span>, deployed on <span className='text-purple-500' >Vercel</span>
         </span>
 
         <a href="https://github.com/ductranphan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center p-1 rounded transition duration-150 hover:scale-105">
