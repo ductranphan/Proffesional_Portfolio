@@ -18,6 +18,8 @@ import reactlogo from './assets/react.png'
 import pandaslogo from './assets/pandas.png'
 import numpylogo from './assets/numpy.png'
 import sqlLogo from './assets/sql.png'
+import { Analytics } from "@vercel/analytics/react"
+
 
 function App() {
 
@@ -249,7 +251,7 @@ function Skills() {
         <h2 className="text-4xl font-semibold text-white">Technical Skills</h2>
         <hr className="my-4 border-gray-700" />
       </div>
-
+      <Analytics />
       <div className="first-row">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 mt-8">
           {skills.map((skill, index) => (
