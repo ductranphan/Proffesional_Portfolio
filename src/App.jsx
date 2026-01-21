@@ -18,6 +18,8 @@ import reactlogo from './assets/react.png'
 import pandaslogo from './assets/pandas.png'
 import numpylogo from './assets/numpy.png'
 import sqlLogo from './assets/sql.png'
+import plguesser from './assets/plguesser.jpeg'
+import deepdiveduel from './assets/screen.png'
 import { Analytics } from "@vercel/analytics/react"
 
 
@@ -113,14 +115,14 @@ function Experience() {
 
               <div className="w-36 flex flex-col items-center text-sm text-gray-400">
                 <span className="font-medium text-white">May 2025 — Sep 2025</span>
-                <span className="font-medium text-white mb-5">Ho Chi Minh, Vietnam</span>
+                <span className="font-medium text-white mb-5"></span>
               </div>
 
             </div>
-            <p className="experience-list text-gray-300 mb-3">- Collaborated on a development team to implement and customize modules within the Odoo ERP system, enhancing automation and efficiency across business workflows by 30%.</p>
-            <p className="experience-list text-gray-300 mb-3">- Applied existing knowledge to practical tasks and actively contributed to a small-scale ERP project in the footwear and fashion industries, resulting in improved inventory tracking and order management</p>
-            <p className="experience-list text-gray-300 mb-3">- Gained hands-on experience with the full software development lifecycle by completing project deliverables, fixing bugs, and optimizing code, which reduced system errors and improved processing speed</p>
-          </li>
+            <p className="experience-list text-gray-300 mb-3">- Contributed to the development of a custom <strong>Odoo ERP system</strong> for the fashion industry, using PostgreSQL to design schemas that managed complex product variants and inventory data.</p>
+            <p className="experience-list text-gray-300 mb-3">- Engineered backend automations using Python, refactoring inefficient Odoo ORM queries to reduce data retrievalatency <strong>by 40%</strong>, resulting in significantly sped up daily report generation.</p>
+            <p className="experience-list text-gray-300 mb-3">- Collaborated with the team to diagnose and resolve <strong>20+ critical bugs</strong> across the Point of Sale (POS) and invoicing modules, ensuring system stability and streamlining business workflows.</p>
+            </li>
         </ul>
       </div>
     </>
@@ -129,8 +131,36 @@ function Experience() {
 
 function Projects() {
 
-  //COPY THIS PART WHEN MAKE A NEW PROJECT
   const project1 = [
+    {
+      title: "Deep Dive Duel",
+      tags: ["Python", "FastAPI", , "WebSocket", "React", "OpenRouter API"],
+      date: "Sep 2025 — Oct 2025",
+      image: deepdiveduel,
+      codeUrl: "https://github.com/oceanyu1/deepdiveduel",
+      details: [
+        "- Engineered a real-time visualization platform to stream concurrent LLM search algorithms (BFS vs. DFS), integrating OpenRouter to dynamically hot-swap models (GPT-4o, Claude 3.5) for instant semantic benchmarking.",
+        "- Orchestrated the development workflow for a 3-person team during a 48-hour hackathon, defining strict Pydantic data schemas and managing Git feature branches to enable parallel development and seamless data synchronization."
+      ]
+    }
+  ]
+  
+  const project2 = [
+    {
+      title: "Pl Guesser",
+      tags: ["Python", "FastAPI", "React", "Tailwind CSS", "PostgreSQL"],
+      date: "Sep 2025 — Oct 2025",
+      image: plguesser,
+      codeUrl: "https://github.com/ductranphan/PLGuesser",
+      details: [
+        "- Built a full-stack Premier League Wordle clone using React, Tailwind CSS, and PostgreSQL, architecting a robust schema to persist user streaks, statistics, and win rates across sessions.",
+        "- Optimized system performance to achieve <50ms API latency and sub-second UI transitions by designing efficient FastAPI validation logic and implementing database indexing for leaderboard generation."
+      ]
+    }
+  ]
+
+  //COPY THIS PART WHEN MAKE A NEW PROJECT
+  const project3 = [
     {
       title: "SpotiMe",
       tags: ["Python", "Pandas", "REST API", "Streamlit", "JSON"],
@@ -145,7 +175,7 @@ function Projects() {
   ]
   //END OF COPY PRETTY EASY
 
-  const project2 = [
+  const project4 = [
     {
       title: "Snake Game",
       tags: ["Java", "Swing"],
@@ -159,7 +189,7 @@ function Projects() {
     }
   ]
 
-  const projects = [...project1, ...project2];
+  const projects = [...project1, ...project2, ...project3, ...project4];
 
   return (
     <div className="text-left mt-16">
