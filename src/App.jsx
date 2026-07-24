@@ -107,22 +107,28 @@ function Experience() {
         <ul className=" mt-4 space-y-4 text-gray-300">
           <li>
             <div className="flex items-start justify-between gap-6">
-
+              <div className="flex-1">
+                <h3 className="text-lg font-medium text-purple-500">Mobile App Developer at Calm Courage Co.</h3>
+                <span className="font-medium text-white mb-5">Internship | Remote</span>
+              </div>
+              <div className="w-36 flex flex-col items-center text-sm text-gray-400">
+                <span className="font-medium text-white">June 2026 — Sep 2026</span>
+              </div>
+            </div>
+            <p className="experience-list text-gray-300 mb-3">- Built and maintained cross-platform mobile apps using <strong>React Native</strong> and <strong>TypeScript</strong>.</p>
+          </li>
+          <li>
+            <div className="flex items-start justify-between gap-6">
               <div className="flex-1">
                 <h3 className="text-lg font-medium text-purple-500">Software Developer at FPT Corporation</h3>
                 <span className="font-medium text-white mb-5">Internship | Remote</span>
               </div>
-
               <div className="w-36 flex flex-col items-center text-sm text-gray-400">
                 <span className="font-medium text-white">May 2025 — Sep 2025</span>
-                <span className="font-medium text-white mb-5"></span>
               </div>
-
             </div>
-            <p className="experience-list text-gray-300 mb-3">- Contributed to the development of a custom <strong>Odoo ERP system</strong> for the fashion industry, using PostgreSQL to design schemas that managed complex product variants and inventory data.</p>
-            <p className="experience-list text-gray-300 mb-3">- Engineered backend automations using Python, refactoring inefficient Odoo ORM queries to reduce data retrievalatency <strong>by 40%</strong>, resulting in significantly sped up daily report generation.</p>
-            <p className="experience-list text-gray-300 mb-3">- Collaborated with the team to diagnose and resolve <strong>20+ critical bugs</strong> across the Point of Sale (POS) and invoicing modules, ensuring system stability and streamlining business workflows.</p>
-            </li>
+            <p className="experience-list text-gray-300 mb-3">- Developed custom Odoo ERP systems using <strong>Python</strong>, <strong>Odoo ORM</strong>, and <strong>PostgreSQL</strong>.</p>
+          </li>
         </ul>
       </div>
     </>
